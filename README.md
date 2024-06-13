@@ -47,3 +47,10 @@ kubectl apply -f web-app.yaml
 Now let's see how many pods are running.
 
 ![altimg](./images/img6.png)
+
+Run 
+```
+minikube service webapp-service 
+```
+
+and go to the url and see the website running
